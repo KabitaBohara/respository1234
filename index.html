@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first Project</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        .con {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .con1 {
+            width: 100%;
+            height: 100px;
+            background-color: white;
+            text-align: center;
+
+
+        }
+
+        h1 {
+            text-align: center;
+            padding: 25px;
+        }
+
+        .box1 {
+            padding: 25px;
+        }
+
+        .box3 {
+            height: 40px;
+            width: 150px;
+            background-color: green;
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+
+        nav li {
+            display: inline-block;
+            padding: 10px;
+
+        }
+
+        li a {
+            text-decoration: none;
+        }
+
+        .img {
+            margin: 50px;
+            padding-top: 20px;
+
+        }
+
+        .box4 {
+
+            margin: auto;
+            padding: 60px;
+        }
+
+        .text {
+            font-size: 50px;
+            font-style: bold;
+
+        }
+
+        .text1 {
+            color: gray;
+        }
+
+        #text {
+            font-size: 30px;
+        }
+
+        .box5 {
+            width: 150px;
+            height: 40px;
+            background-color: green;
+            margin: auto;
+            padding: 10px;
+            color: white;
+
+        }
+
+        .box6 {
+            width: 150px;
+            height: 40px;
+            border: 2px green solid;
+            margin-right: 50px;
+            padding: 10px;
+            color: green;
+        }
+
+        .con3 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .con4 {
+            width: 100%;
+            height: 800px;
+            background-color: rgb(163, 247, 219);
+        }
+
+        .text2 {
+            text-align: center;
+            padding-top: 30px;
+            font-size: 60px;
+
+
+        }
+
+        .text3 {
+            text-align: center;
+            font-size: 30px;
+
+        }
+
+        .text4 {
+            text-align: center;
+            font-size: 20px;
+            color: gray;
+        }
+
+        .image {
+            gap: 10px;
+            padding: 20px;
+            text-align: center;
+
+        }
+
+        .boxa {
+            width: 150px;
+            height: 40px;
+            background-color: black;
+            margin: auto;
+            color: white;
+            padding-top: 10px;
+        }
+
+        .con5 {
+            width: 100%;
+            height: 500px;
+            background-color: white;
+
+        }
+
+        .video {
+            padding: 50px;
+
+        }
+
+        .a {
+            font-size: 40px;
+            padding-left: 60px;
+
+        }
+
+        .b {
+            font-size: 30px;
+            padding-left: 50px;
+            color: gray;
+        }
+
+        .c {
+            font-size: 20px;
+            padding-left: 50px;
+            color: gray;
+        }
+
+        .d {
+            width: 150px;
+            height: 40px;
+            background-color: green;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            font-style: bold;
+
+        }
+
+        .e {
+            width: 150px;
+            height: 40px;
+            border: 2px green solid;
+            text-align: center;
+            padding: 10px;
+            color: green;
+        }
+
+        .aa {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .con6 {
+            width: 100%;
+            height: 700px;
+            background-color: rgb(243, 243, 187);
+            font-size: 30px;
+            padding-top: 20px;
+        }
+
+        .con7 {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+
+        .pp {
+            width: 400px;
+            height: 500px;
+            border: 1px black solid;
+            padding: 20px;
+            color: rgb(95, 87, 18);
+        }
+
+        .pp img {
+            padding: 50px;
+
+        }
+
+        .pp p {
+            padding-left: 50px;
+        }
+
+        .con8 {
+            width: 100%;
+            height: 6ss00px;
+            background-color: rgb(14, 196, 156);
+        }
+
+        .heading {
+            font-size: 50px;
+            text-align: center;
+            padding-top: 30px;
+            color: white;
+        }
+
+        .para1 {
+            text-align: center;
+            color: white;
+            display: block;
+        }
+
+
+       
+        input{
+            display: block;
+
+        }
+        input[type="text"]{
+            width: 700px;
+            height: 50px;
+           margin-left: 100px;
+            border-radius: 10px;
+        }
+        input[type="email"]{
+            width: 1000px;
+            height: 50px;
+           margin-left: 100px;
+            border-radius: 10px;
+        }
+        
+        input[type="submit"]
+        {
+            width: 100px;
+            height: 40px;
+         margin-left: 1000px;
+           
+
+        }
+        
+        </style>
+</head>
+
+<body>
+
+
+    <div class="con1 con">
+        <div class="box con">
+            <div class="logo"><img
+                    src="https://templatepreview.website.com/remote/imageProxy.cfc?method=viewLibraryImage&s=QFhKSiNRWT48Jy9ERjpSSTYjIykxPUxIV04rPlQ5XTc1UDs6Nk01UTxARTwgCg%3D%3D&w=100">
+            </div>
+            <h1>Sweep Home Cleaners
+
+            </h1>
+        </div>
+        <div class="box1 con">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="about.html"> About</a></li>
+                    <li><a href=""> Services</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href=""> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="box3">Booking a Cleaning</div>
+        </div>
+    </div>
+    <div class="con2 con">
+        <div class="img"><img height="600px"
+                src="https://templatepreview.website.com/remote/imageProxy.cfc?method=viewLibraryImage&s=MCVSTUZANFU3RDApOkMtKTUjOycwIFAgIAo%3D&w=768">
+        </div>
+
+        <div class="box4">
+            <div class="text">
+                <p>Professional</p>
+            </div>
+            <div class="text">
+                <p>Residential &</p>
+            </div>
+            <div class="text">
+                <p>Commercial Cleaning</p>
+            </div>
+            <div class="text1" id="text">
+                <p><strong> Mainland spotless since 2002</strong></p>
+            </div>
+            <div class="text1">
+                <p>This is a paragraph. You can write your own content here, and fill in the blanks. What's your story
+                    and where do you go from here? Tell the world about your business, and make this text yours.</p>
+            </div>
+            <div class="con3 ">
+                <div class="box5">
+                    <p>Book a clean</p>
+                </div>
+                <div class="box6">
+                    <p>See Our Services</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="con4">
+        <div class="text2">
+            <p><strong>Services</strong> </p>
+        </div>
+        <br>
+        <div class="text3">
+            <p>Solutions For Your Busy Lifestyle</p>
+        </div>
+        <br>
+        <div class="text4">
+            <p>This is a paragraph. You can write your own content here, and fill in the blanks.</p>
+
+            <p>What's your story and where do you go from here? Tell the world about your business, and make this text
+                yours.</p>
+
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="image con">
+            <div class="img1"><img width="400px"
+                    src="https://templatepreview.website.com/remote/imageProxy.cfc?method=viewLibraryImage&s=MCwvMzc6P0JKSSpPUj5DI1QyPDdMVEAgIAo%3D&w=480"><br>
+                <h3>Residential Cleaning</h3>
+                <br>
+                <p>Starting at $100</p>
+                <br>
+                <p>This is a paragraph. You can write your own content here, and fill in the blanks. Tell the world
+                    about your business, and make this text yours.</p>
+                <br>
+                <br>
+                <div class="boxa">Learn More</div>
+            </div>
+            <div class="img1"><img width="400px"
+                    src="https://templatepreview.website.com/remote/imageProxy.cfc?method=viewLibraryImage&s=MF1PPFkmSCIuU05ZSCY0J0whXjFKOUAgIAo%3D&w=480"><br>
+                <h3>Residential Cleaning</h3><br>
+                <p>Starting at $100</p>
+                <br>
+                <p>This is a paragraph. You can write your own content here, and fill in the blanks. Tell the world
+                    about your business, and make this text yours.</p>
+                <br>
+                <br>
+                <div class="boxa">Learn More</div>
+
+            </div>
+            <div class="img1"><img width="400px"
+                    src="https://templatepreview.website.com/remote/imageProxy.cfc?method=viewLibraryImage&s=MFo8UFJWXzQ8MFZaTDwoWFBKKklBVTAgIAo%3D&w=480"><br>
+                <h3>Residential Cleaning</h3><br>
+                <p>Starting at $100</p>
+                <br>
+                <p>This is a paragraph. You can write your own content here, and fill in the blanks. Tell the world
+                    about your business, and make this text yours.</p>
+                <br>
+                <br>
+                <div class="boxa">Learn More</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="con5 con">
+        <div class="texta"><br><br>
+            <div class="a">
+                <p><strong>Dependable & </strong></p>
+            </div>
+            <div class="a">
+                <strong>Affordable</strong>
+                <p> </p>
+            </div>
+            <br>
+            <div class="b">
+                <p>Cleaning is Our Specialty</p>
+            </div>
+            <br>
+            <br>
+            <div class="c">
+                <p>Sweep Home Cleaners is a professional cleaning company in downtown Mainland. This is a paragraph. You
+                    can write your own content here, and fill in the blanks. What's your story and where do you go from
+                    here? Tell the world about your business, and make this text yours.</p>
+            </div>
+            <br>
+            <br>
+            <div class="aa ">
+                <div class="d"><b>See Our Priceing</b></div>
+                <div class="e"><b>Learn More</b></div>
+            </div>
+        </div>
+
+
+
+        <div class="video">
+            <video
+                src="https://templatepreview.website.com/remote/videoProxy.cfc?method=viewLibraryVideo&s=MFQgVkhfUDRWJiJEOUVfOCEvLi01KyAgIAo%3D"
+                width="95%" controls></video>
+        </div>
+    </div>
+    <div class="con6">
+        <h1>What Clients Say</h1>
+        <div class="con7 ">
+            <div class="pp">
+
+                <img
+                    src="https://templatepreview.website.com/remote/imageProxy.cfc?method=viewLibraryImage&s=QDY0QFJIXURCIyFZIUQsX0ReQV8%2BU0VYUjwgRkgmRkgtSEZNMjNVO0ZTRVwgCg%3D%3D&w=240">
+                <p>Candace Lee</p><br>
+                <h6>This is a paragraph. You can write your own content here, and fill in the blanks. What's your story
+                    and where do you go from here?</h6>
+            </div>
+            <div class="pp"><img
+                    src="https://templatepreview.website.com/remote/imageProxy.cfc?method=viewLibraryImage&s=QDY0QFJIXURCIyFZIUQsX0ReQV8%2BU00uN1BHKEdHV1giSVEoLF4jSVM5RkAgCg%3D%3D&w=240">
+                <p>Gregory Khan</p><br>
+                <h6>This is a paragraph. You can write your own content here, and fill in the blanks. What's your story
+                    and where do you go from here?</h6>
+            </div>
+            <div class="pp"><img
+                    src="https://templatepreview.website.com/remote/imageProxy.cfc?method=viewLibraryImage&s=QDY0QFJIXURCIyFZIUQsX0ReQV8%2BU0Y3NV0nTkk9Xj4hRi82OlFbJitSMjggCg%3D%3D&w=240">
+                <p>Martin Reed</p><br>
+                <h6>This is a paragraph. You can write your own content here, and fill in the blanks. What's your story
+                    and where do you go from here?</h6>
+            </div>
+        </div>
+    </div>
+    <div class="con8 ">
+        <div class="heading">
+            <p>Sign Up & Get A Quote</p>
+        </div>
+        <br>
+        <br>
+        <div class="para1">
+            <p>Let us know if there is anything we can do for you</p>
+        </div>
+        <form action="" class="form-control">
+          First Name <input type="text" placeholder="Enter Your Name"><br>
+            Second Same <input type="text" placeholder="Enter Your Last Name"><br>
+             Email<input type="email" placeholder="Enter Your Email"><br>
+             <input type="submit" value="submit">
+             Message<br><textarea name="text" id="" cols="30" rows="10"></textarea>
+             <br>
+          
+         </form>
+       
+</div>
+    </div>
+</body>
+
+</html>
